@@ -1,0 +1,36 @@
+# Normalize line endings for all files
+* text=auto
+
+# C++ source files
+*.cpp text eol=lf
+*.h text eol=lf
+*.hpp text eol=lf
+
+# Visual Studio project files
+*.vcxproj text eol=crlf
+*.vcxproj.filters text eol=crlf
+*.sln text eol=crlf
+
+# Documentation
+*.md text eol=lf
+README.md text eol=lf
+SETUP.md text eol=lf
+*.csv text eol=lf
+
+# Ensure binaries are not normalized
+*.exe binary
+*.ilk binary
+*.pdb binary
+*.dll binary
+
+# Images remain binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+
+# Fonts remain binary
+*.ttf binary
+*.otf binary
+*.fnt binary

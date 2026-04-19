@@ -1,0 +1,45 @@
+# Build and architecture directories
+x64/
+Debug/
+Release/
+*.o
+*.a
+*.so
+*.lib
+*.dll
+
+# IDE and project files (Visual Studio)
+.vs/
+*.vcxproj.user
+*.vcxproj.filters
+*.aps
+*.idb
+*.pdb
+*.ilk
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+
+# Compiled output
+*.exe
+*.out
+
+# CMake (if added later)
+CMakeLists.txt.user
+build/
+
+# Dependencies (SFML if installed locally)
+# Uncomment if SFML is vendored in the repo
+# sfml/*/
+
+# IDE configurations
+.vscode/
+.idea/
+*.swp
+*.swo
